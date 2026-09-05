@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="10dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="CarGoRuqsat — ловля свободного слота" android:textSize="18sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/statusText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:paddingTop="6dp" android:text="Остановлено"/>
+        <Button android:id="@+id/dateButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Выбрать дату"/>
+        <TextView android:id="@+id/dateText" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Дата не выбрана" android:padding="4dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Интервал проверки"/>
+        <Spinner android:id="@+id/intervalSpinner" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <Button android:id="@+id/startButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Запустить ловлю"/>
+        <Button android:id="@+id/stopButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Остановить"/>
+    </LinearLayout>
+    <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>
