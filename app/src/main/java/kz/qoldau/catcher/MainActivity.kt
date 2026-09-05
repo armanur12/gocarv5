@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         webView.webViewClient = WebViewClient()
         webView.webChromeClient = WebChromeClient()
         CookieManager.getInstance().setAcceptCookie(true)
-        webView.loadUrl("https://https://cgr.qoldau.kz/ru/start/")
+        webView.loadUrl("https://cgr.qoldau.kz/ru/start/")
 
         findViewById<Button>(R.id.dateButton).setOnClickListener { chooseDate() }
         findViewById<Button>(R.id.startButton).setOnClickListener {
