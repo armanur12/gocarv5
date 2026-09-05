@@ -1,0 +1,11 @@
+1. На GitHub открой https://github.com/new
+2. Repository name: CarGoRuqsat-Android-v5
+3. Owner: armzharkent-sudo
+4. Сделай Public или Private и создай репозиторий.
+5. Загрузи ВСЕ файлы из этого ZIP, включая папку .github.
+6. После загрузки открой вкладку Actions.
+7. Выбери Build APK -> Run workflow.
+8. После завершения открой успешный запуск -> Artifacts -> CarGoRuqsat-v5-debug.
+9. Скачай ZIP и внутри будет app-debug.apk.
+
+Не передавай мне пароль, access token или секретные ключи GitHub.
